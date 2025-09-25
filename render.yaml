@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: real_estate_price_prediction
-    env: python
-    pythonVersion: 3.11     # 👈 force 3.11
-    plan: free
-    buildCommand: pip install -r server/requirements.txt
-    startCommand: python3 server/server.py
